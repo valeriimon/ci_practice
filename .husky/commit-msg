@@ -1,1 +1,2 @@
-npx --no-install commitlint --edit
+echo "Husky running!!"
+npx --no-install commitlint --edit $1
