@@ -10,7 +10,7 @@ import { RouterOutlet } from '@angular/router';
 export class App {
   protected readonly title = signal('release-versioning');
 
-  onePluOne(): number {
+  onePlusOne(): number {
     return 1 + 1;
   }
 }
