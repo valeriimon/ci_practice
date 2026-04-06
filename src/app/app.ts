@@ -13,4 +13,8 @@ export class App {
   onePlusOne(): number {
     return 1 + 1;
   }
+
+  twoPlusTwo(): number {
+    return 2 + 2;
+  }
 }
