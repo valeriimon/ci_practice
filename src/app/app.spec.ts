@@ -25,7 +25,7 @@ describe('App', () => {
     it('should return two', () => {
       const fixture = TestBed.createComponent(App);
       const app = fixture.componentInstance;
-      expect(app.onePluOne()).toBe(2);
+      expect(app.onePlusOne()).toBe(2);
     });
   });
 });
