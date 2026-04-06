@@ -17,4 +17,8 @@ export class App {
   twoPlusTwo(): number {
     return 2 + 2;
   }
+
+  threePlusThree(): number {
+    return 3 + 3;
+  }
 }
