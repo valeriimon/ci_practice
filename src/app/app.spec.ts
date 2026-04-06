@@ -20,4 +20,12 @@ describe('App', () => {
     const compiled = fixture.nativeElement as HTMLElement;
     expect(compiled.querySelector('h1')?.textContent).toContain('Hello, release-versioning');
   });
+
+  describe('onePlusOne', () => {
+    it('should return two', () => {
+      const fixture = TestBed.createComponent(App);
+      const app = fixture.componentInstance;
+      expect(app.onePluOne()).toBe(2);
+    });
+  });
 });
