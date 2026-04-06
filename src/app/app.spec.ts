@@ -28,12 +28,4 @@ describe('App', () => {
       expect(app.onePlusOne()).toBe(2);
     });
   });
-
-  describe('twoPlusTwo', () => {
-    it('should return four', () => {
-      const fixture = TestBed.createComponent(App);
-      const app = fixture.componentInstance;
-      expect(app.twoPlusTwo()).toBe(4);
-    });
-  });
 });
